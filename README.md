@@ -1,2 +1,3 @@
-# framework
-Dovona's core framework.
+# Dovona Core Framework
+
+PHP library used by Dovona team.
