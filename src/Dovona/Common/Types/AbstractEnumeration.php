@@ -89,8 +89,7 @@ abstract class AbstractEnumeration
     }
 
     /**
-     * Check if the current Enum have the save value with the given one as 
-     * parameter.
+     * Check if the current Enum have the save value with the given one as parameter.
      * 
      * @param mixed $value Value to compare
      * 

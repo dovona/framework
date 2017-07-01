@@ -4,8 +4,14 @@ This project adheres to [Semantic Versioning](http://semver.org/) and see this a
 
 ## [0.0.3] 
 
+### Added
+- .gitignore file added.
+
 ### Changes
 - We are going to Git.
+
+### Removed
+- WebStorm files removed from cache as that was already ignored.
 
 
 ## [0.0.2] 2017-06-28
