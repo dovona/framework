@@ -3,7 +3,7 @@
 namespace Dovona\Common\Process;
 
 /**
- * A process result model for a taken action.
+ * A general process result model for a taken action.
  *
  * @since 0.0.2
  *
@@ -12,7 +12,7 @@ namespace Dovona\Common\Process;
 class Result
 {
     /**
-     * Tells if the process failed or succeeded
+     * Tells if the process failed or succeeded.
      *
      * @var boolean
      */
@@ -70,7 +70,7 @@ class Result
     /**
      * Return the result message.
      *
-     * @return string The message.
+     * @return string The result message.
      */
     public function getMessage()
     {
@@ -82,7 +82,7 @@ class Result
      *
      * @param string $message Message to set.
      *
-     * @return $this
+     * @return \Dovona\Common\Process\Result Self instance.
      */
     public function setMessage( $message )
     {
@@ -106,7 +106,7 @@ class Result
      *
      * @param boolean $status Status to set
      *
-     * @return $this
+     * @return \Dovona\Common\Process\Result Self instance.
      */
     public function setStatus( $status )
     {
@@ -120,7 +120,7 @@ class Result
      *
      * @param string $message The message to set
      *
-     * @return $this
+     * @return \Dovona\Common\Process\Result Self instance.
      */
     public function setFailed( $message = null )
     {
@@ -139,7 +139,7 @@ class Result
      *
      * @param string $message The message to set.
      *
-     * @return $this
+     * @return \Dovona\Common\Process\Result Self instance.
      */
     public function setSucceeded( $message = null )
     {
@@ -172,7 +172,7 @@ class Result
      * @param string $name Name of data to set
      * @param mixed $value Value of data to set
      *
-     * @return $this
+     * @return \Dovona\Common\Process\Result Self instance.
      */
     public function setData( $name, $value )
     {

@@ -2,7 +2,7 @@
 All notable changes to Dovona's Framework will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/) and see this as a [reference](http://keepachangelog.com/).
 
-## [0.0.3] 
+## [0.0.3] 2017-07-04
 
 ### Added
 - .gitignore file added.
